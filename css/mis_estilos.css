@@ -1,0 +1,51 @@
+:root {
+    --myGreen : #06b40eda;
+    --mylightGreen : #1bc45b;
+  }
+
+/* color del texto */
+
+.text-success {
+    color:var(--myGreen)!important;
+  }
+
+/* botones */
+
+.btn-success {
+    color: #000;
+    background-color: var(--myGreen);
+    border-color: var(--myGreen);
+  }
+  .btn-success:hover {
+    color: #000;
+    background-color:var(--mylightGreen);
+    border-color: var(--mylightGreen);
+  }
+  
+  /* barra navegación */
+
+nav ul li{
+
+    color: var(--myGreen) !important;
+}
+
+#mainNav.navbar-shrink .nav-link.active{
+    color: var(--myGreen);
+    outline: none;
+    border-bottom: 0.25rem solid var(--myGreen);
+}
+
+#mainNav.navbar-shrink .nav-link:hover{
+    color: var(--myGreen);
+}
+
+
+/* featured text */
+
+.projects-section .featured-text{
+    border-left: 0.5rem solid var(--myGreen);
+}
+
+  a:hover {
+    color: var(--mylightGreen);
+  }
