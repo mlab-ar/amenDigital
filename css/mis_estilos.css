@@ -1,18 +1,30 @@
 :root {
-    --myGreen : #06b40eda;
-    --mylightGreen : #1bc45b;
+    --myGreen : #000000; 
+    --mylightGreen : #FFFFFF;
   }
 
 /* color del texto */
 
 .text-success {
-    color:var(--myGreen)!important;
+    color:var(--mylightGreen)!important;
   }
 
 /* botones */
 
+.btn-amen{
+    background-color: black;
+    color: white;
+    border-color: grey;
+}
+
+.btn-amen:hover{
+    background-color: white;
+    color: black;
+    border-color: grey;
+}
+
 .btn-success {
-    color: #000;
+    color:var(--mylightGreen)!important;
     background-color: var(--myGreen);
     border-color: var(--myGreen);
   }
@@ -20,6 +32,10 @@
     color: #000;
     background-color:var(--mylightGreen);
     border-color: var(--mylightGreen);
+  }
+
+  .text-success:hover {
+    color:var(--myGreen)!important;
   }
   
   /* barra navegación */
