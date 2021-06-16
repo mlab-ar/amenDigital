@@ -1,12 +1,3 @@
-/*!
-* Start Bootstrap - Grayscale v7.0.1 (https://startbootstrap.com/theme/grayscale)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-grayscale/blob/master/LICENSE)
-*/
-//
-// Scripts
-// 
-
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
@@ -56,12 +47,6 @@ window.addEventListener('DOMContentLoaded', event => {
 // slider
 
 $(document).ready(function(){
-    // Toggle menu animation
-    $('.menu-toggle').on('click', function(){
-        $('.nav').toggleClass('showing');
-        $('.nav ul').toggleClass('showing');
-    });
-
     // Post slider animation
     $('.post-wrapper').slick({
         slidesToShow: 3,
