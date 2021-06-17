@@ -46,13 +46,15 @@
   .text-success:hover {
     color:var(--myGreen)!important;
   }
+
+  
   
   /* barra navegación */
 
-nav ul li{
+/* nav ul li{
 
-    color: var(--myGreen) !important;
-}
+    color: transparent;
+} */
 
 #mainNav.navbar-shrink .nav-link.active{
     color: var(--myGreen);
@@ -61,7 +63,8 @@ nav ul li{
 }
 
 #mainNav.navbar-shrink .nav-link:hover{
-    color: var(--myGreen);
+    /* color: var(--myGreen); */
+    color: transparent;
 }
 
 
@@ -146,10 +149,10 @@ nav ul li{
 #slideshow { 
   margin: 50px auto; 
   position: relative; 
-  width: 90%; 
-  height: 700px; 
+  width: 50%; 
+  height: 400px; 
   padding: 10px; 
-  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+  /* box-shadow: 0 0 20px rgba(0,0,0,0.4);  */
 }
 
 #slideshow > div { 
@@ -157,5 +160,12 @@ nav ul li{
   top: 10px; 
   left: 10px; 
   right: 10px; 
-  bottom: 10px; 
+  bottom: 10px;
+  text-align: center;   
 }
+
+.imgSlide{
+  height: 90%;
+  margin: 2% 0 2% 0;
+}
+
