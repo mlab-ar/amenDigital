@@ -8,10 +8,15 @@
 .text-success {
     color:var(--mylightGreen)!important;
   }
+  
 
-#text_tittle{
-  color:white;
+.text-black{
+  color:black;
+  /* color | offset-x | offset-y | blur-radius */
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.3em;
 }
+
+
 
 /* botones */
 
@@ -22,9 +27,9 @@
 }
 
 .btn-amen:hover{
-    background-color: white;
+    background-color: rgb(133, 133, 133);
     color: black;
-    border-color: grey;
+    border-color: rgb(29, 28, 28);
 }
 
 .btn-success {
