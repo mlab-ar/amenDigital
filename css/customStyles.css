@@ -13,6 +13,26 @@
   
 }
 
+/* icons social */
+.center-icon{
+  position: relative; 
+  left: 45%;
+}
+
+.bi:hover{
+  color: grey;
+}
+
+.bi{
+  color:black;
+  
+}
+
+.social a{
+  text-decoration: none;
+}
+
+
 /* texto */
 
 .text-success {
