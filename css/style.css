@@ -573,6 +573,11 @@ div.tab button:hover {
     float: left;
 }
 
+.max-box {
+    width: 100%;
+    float: left;
+}
+
 .masonry-box .blog-meta h4 {
     padding: 0.2rem 0;
 }
