@@ -45,6 +45,7 @@
   text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.3em;
   font-family: "Manrope", sans-serif !important;
   letter-spacing: 0rem !important;
+  opacity: 1 !important;
 }
 
 /* botones */
@@ -199,4 +200,8 @@ a:hover {
   margin-right: auto;
   margin-top: 20px;
   margin-bottom: 10px;
+}
+
+.masthead {
+  opacity: 0.8;
 }
