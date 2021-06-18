@@ -42,7 +42,7 @@
 .text-black {
   color: black;
   /* color | offset-x | offset-y | blur-radius */
-  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.3em;
+  text-shadow: #ffffff 0.1em 0.1em 0.3em;
   font-family: "Manrope", sans-serif !important;
   letter-spacing: 0rem !important;
   opacity: 1 !important;
