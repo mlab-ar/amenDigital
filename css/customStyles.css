@@ -4,34 +4,30 @@
 }
 
 /* imagenes */
-.center-image{
-  
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /* width: 50%; */
-  
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
 }
 
 /* icons social */
-.center-icon{
-  position: relative; 
+.center-icon {
+  position: relative;
   left: 45%;
 }
 
-.bi:hover{
+.bi:hover {
   color: grey;
 }
 
-.bi{
-  color:black;
-  
+.bi {
+  color: black;
 }
 
-.social a{
+.social a {
   text-decoration: none;
 }
-
 
 /* texto */
 
@@ -39,7 +35,7 @@
   color: var(--mylightGreen) !important;
 }
 
-.justify-text{
+.justify-text {
   text-align: center;
 }
 
@@ -47,6 +43,8 @@
   color: black;
   /* color | offset-x | offset-y | blur-radius */
   text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.3em;
+  font-family: "Manrope", sans-serif !important;
+  letter-spacing: 0rem !important;
 }
 
 /* botones */
@@ -79,7 +77,6 @@
 }
 
 /* barra navegación */
-
 
 #mainNav.navbar-shrink .nav-link.active {
   color: var(--myGreen);
