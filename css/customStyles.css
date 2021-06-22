@@ -90,6 +90,10 @@
   color: transparent;
 }
 
+#mainNav{
+display: none;
+}
+
 /* featured text */
 
 .projects-section .featured-text {
