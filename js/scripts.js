@@ -42,5 +42,17 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+
+    let nav = document.getElementById("mainNav");
+    window.onscroll = function() {mostrarNav()};
+
+    function mostrarNav() {
+    if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+        nav.style.display = "inline";
+    } else {   
+        nav.style.display = "none";
+    }
+    }
+
 });
 

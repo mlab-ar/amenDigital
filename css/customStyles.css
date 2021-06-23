@@ -3,16 +3,49 @@
   --mylightGreen: #ffffff;
 }
 
-/* color del texto */
+/* imagenes */
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
+
+/* icons social */
+.center-icon {
+  position: relative;
+  left: 45%;
+}
+
+.bi:hover {
+  color: grey;
+}
+
+.bi {
+  color: black;
+}
+
+.social a {
+  text-decoration: none;
+}
+
+/* texto */
 
 .text-success {
   color: var(--mylightGreen) !important;
 }
 
+.justify-text {
+  text-align: center;
+}
+
 .text-black {
   color: black;
   /* color | offset-x | offset-y | blur-radius */
-  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.3em;
+  text-shadow: #ffffff 0.1em 0.1em 0.3em;
+  font-family: "Manrope", sans-serif !important;
+  letter-spacing: 0rem !important;
+  opacity: 1 !important;
 }
 
 /* botones */
@@ -46,11 +79,6 @@
 
 /* barra navegación */
 
-/* nav ul li{
-
-    color: transparent;
-} */
-
 #mainNav.navbar-shrink .nav-link.active {
   color: var(--myGreen);
   outline: none;
@@ -60,6 +88,10 @@
 #mainNav.navbar-shrink .nav-link:hover {
   /* color: var(--myGreen); */
   color: transparent;
+}
+
+#mainNav{
+display: none;
 }
 
 /* featured text */
@@ -172,4 +204,13 @@ a:hover {
   margin-right: auto;
   margin-top: 20px;
   margin-bottom: 10px;
+}
+
+.masthead {
+  opacity: 0.9;
+}
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
