@@ -78,7 +78,7 @@ a.navbar-brand {
   .da-team .carousel-indicators li {
     background-color: #3d3f4c; }
   .da-team .carousel-indicators .active {
-    background-color: #26b7a0; }
+    background-color: #000; }
 
 /*Image Gallery Style*/
 .da-gallery .card-columns .card {
